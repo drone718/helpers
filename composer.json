@@ -11,23 +11,5 @@
     "require-dev": {
         "fzaninotto/faker": "^1.4",
         "phpunit/phpunit": "^7.5"
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "sort-packages": true
-    },
-    
-    "autoload": {
-        "psr-4": {
-            "drone718\\helpers\\": "src/"
-        },
-        "files": [
-          "State.php"  
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
     }
 }
